@@ -1,0 +1,133 @@
+header {
+  padding: 15px;
+
+  /* Color and text. */
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+  font-family: system-ui, sans-serif;
+
+  background-color: rgb(210, 210, 210);
+}
+
+#chat-container {
+  padding: 0;
+  height: 100%;
+  width: 70%;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+#messages {
+  padding: 0px;
+  margin: 15px 0px 15px 0px;
+  height: 100%;
+
+  overflow: auto;
+
+  background-color: rgb(255, 255, 255);
+  
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgb(50, 50, 50);
+
+  list-style: none;
+}
+
+.message {
+  border: 0;
+  margin: 15px;
+  padding: 5px 9px 5px 9px;
+
+  width: fit-content;
+  max-width: 65%;
+
+  border-radius: 1px 12px 12px 12px;
+  background-color: rgb(233, 233, 233);
+}
+
+.my-message {
+  margin-left: auto;  /* align right */
+
+  border-radius: 12px 1px 12px 12px;
+  background-color: rgb(181, 228, 255);
+}
+
+.message-text {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.message-time {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+}
+
+.my-message-time {
+  text-align: right;
+}
+
+#form {
+  border: 0;
+  margin: 0px 0px 15px 0px;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#input {
+  border: 0;
+  margin: 0px 15px 0px 0px;
+  padding: 10px 10px 9px 10px;
+
+  width: 100%;
+
+  font-size: 20px;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(50, 50, 50);
+  border-radius: 10px;
+}
+
+#send-button {
+  border: 0;
+  margin: 0;
+  padding: 10px 14px 10px 14px;
+
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(4, 96, 255);
+
+  border-radius: 10px;
+}
+
+#send-button:hover {
+  background-color: rgb(0, 55, 149)
+}
