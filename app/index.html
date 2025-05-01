@@ -3,12 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Chat App</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles/container.css">
+  <link rel="stylesheet" href="./styles/messages.css">
+  <link rel="stylesheet" href="./styles/form.css">
+  <link rel="stylesheet" href="./styles/online-bar.css">
+  <link rel="stylesheet" href="./styles/typing-bar.css">
 </head>
 <body>
   <header>💬 Real-Time Chat</header>
 
   <div id="chat-container">
+    <section id="online-bar">
+      <h2 id="online-heading">Online</h2>
+    </section>
+
+    <section id="typing-bar">
+    </section>
+
     <ul id="messages"></ul>
     <form id="form">
       <input id="input" autocomplete="off" placeholder="Type a message...">

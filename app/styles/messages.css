@@ -1,0 +1,81 @@
+#messages {
+  padding: 0px;
+  margin: 15px 0px 15px 0px;
+  height: 100%;
+
+  overflow-y: auto;
+
+  background-color: rgb(255, 255, 255);
+  
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgb(50, 50, 50);
+
+  list-style: none;
+}
+
+.user-message { 
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.user-icon {
+  border: 0;
+  margin: 10px 0 10px 10px;
+  padding: 6px 6px 6px 6px;
+
+  width: 24px;
+  height: 24px;
+
+  background-color: rgb(50, 50, 50);
+  color: white;
+
+  border-radius: 24px;
+
+  text-align: center;
+}
+
+.message {
+  border: 0;
+  margin: 10px 10px 0px 10px;
+  padding: 5px 9px 5px 9px;
+
+  width: fit-content;
+  max-width: 65%;
+
+  border-radius: 1px 12px 12px 12px;
+  background-color: rgb(233, 233, 233);
+}
+
+.my-message {
+  margin-left: auto;  /* align right */
+
+  border-radius: 12px 1px 12px 12px;
+  background-color: rgb(181, 228, 255);
+}
+
+.message-text {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.message-time {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 15px;
+}
+
+.my-message-time {
+  text-align: right;
+}

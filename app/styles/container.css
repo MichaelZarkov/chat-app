@@ -1,0 +1,36 @@
+header {
+  padding: 15px;
+
+  /* Color and text. */
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+  font-family: system-ui, sans-serif;
+
+  background-color: rgb(210, 210, 210);
+}
+
+#chat-container {
+  padding: 0;
+  height: 100%;
+  width: 70%;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
